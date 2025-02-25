@@ -1,0 +1,45 @@
+.footer {
+    padding: 0 3rem 3rem 3rem;
+}
+
+.container {
+    width: 100%;
+    background-color: var(--grey-2);
+    height: 384px;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socials {
+    width: 100%;
+    display: flex;
+}
+
+.network {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    width: 33.3%;
+}
+
+.title {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.username {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 900;
+}
+
+.logoFooter {
+    font-weight: 900;
+    line-height: 100px;
+    font-size: 100px;
+    align-self: flex-end;
+}

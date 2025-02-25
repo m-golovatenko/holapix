@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+#root {
+    width: 100dvw;
+    height: 100%;
+    margin: 0 auto;
+    background-color: var(--grey-1);
+    scrollbar-width: none;
+    overflow-x: hidden;
+    color: var(--white);
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+

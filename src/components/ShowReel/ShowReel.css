@@ -1,0 +1,10 @@
+.showReel {
+    height: 100dvh;
+    padding: 5rem 3rem;
+}
+
+.video {
+    height: 100%;
+    background-color: var(--grey-2);
+    border-radius: 2rem;
+}

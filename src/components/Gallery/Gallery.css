@@ -1,0 +1,81 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*grid-template-rows: 392px repeat(8, 460px);*/
+    grid-template-areas:
+        "one text"
+        "one two"
+        "three two"
+        "three four"
+        "five four"
+        "five six"
+        "seven six"
+        "seven eight"
+        "nine eight"
+        "nine button";
+    gap: 32px;
+    padding: 5rem 3rem;
+    align-items: start;
+}
+
+.text-container {
+    height: 392px;
+    grid-area: text;
+}
+
+.gallery-text {
+    padding: 0 2rem;
+    font-size: 2rem;
+    line-height: 150%;
+}
+
+.gallery-item {
+    height: 869px;
+    background-color: var(--grey-2);
+    border-radius: 1.5rem;
+}
+
+.gallery-item:nth-child(1) {
+    grid-area: one;
+}
+
+.gallery-item:nth-child(2) {
+    grid-area: two;
+}
+
+.gallery-item:nth-child(3) {
+    grid-area: three;
+}
+
+.gallery-item:nth-child(4) {
+    grid-area: four;
+}
+
+.gallery-item:nth-child(5) {
+    grid-area: five;
+}
+
+.gallery-item:nth-child(6) {
+    grid-area: six;
+}
+
+.gallery-item:nth-child(7) {
+    grid-area: seven;
+}
+
+.gallery-item:nth-child(8) {
+    grid-area: eight;
+}
+
+.gallery-item:nth-child(9) {
+    grid-area: nine;
+}
+
+
+.gallery-text {
+    grid-area: text;
+}
+
+
+
+
